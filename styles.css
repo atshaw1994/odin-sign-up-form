@@ -21,6 +21,8 @@ body {
     min-height: calc(100vh - 48px);
     margin: 24px auto;
     border-radius: 16px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px 0 rgba(0, 0, 0, 0.8);
 }
 
 .left-pane {
@@ -41,7 +43,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
     max-height: 128px;
     margin-top: 30%;
     padding: 8px;
@@ -77,6 +81,7 @@ body {
     border: 1px solid black;
     border-radius: 0 16px 16px 0;
     box-shadow: 10px 5px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: -4px 0px 8px 4px rgba(0, 0, 0, 0.5);
 }
 
 .right-pane-top {
