@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Odin Font';
+    src: url('res/Norse-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #141414;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    min-height: calc(100vh - 48px);
+    margin: 24px auto;
+    border-radius: 16px;
+}
+
+.left-pane {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+    border: 1px 0 0 1px solid black;
+    border-radius: 16px 0 0 16px;
+    background-image: url('res/Yggdrasil_Tree.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-pane {
+    flex: 2;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-height: 128px;
+    margin-top: 30%;
+    padding: 8px;
+}
+
+.logo img {
+    width: 96px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.logo-text {
+    font-family: 'Odin Font', sans-serif;
+    margin-left: 24px;
+    font-size: 6rem;
+    color: white;
+    line-height: 1;
+}
+
+.left-pane-credits {
+    font-size: 0.8rem;
+    color: white;
+    margin: 8px;
+    align-self: center;
+}
