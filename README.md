@@ -28,7 +28,7 @@ You can view a live demo of this project [here](https://atshaw1994.github.io/odi
 
 ## Credits
 
-- **Photo:** The background image is a photo of Yggdrasil, sourced from Northlord and used with permission.
+- **Photo:** The background image is a photo of Yggdrasil, sourced from Northlord.
 - **Logo:** The Odin Project's logo is used for instructional purposes.
 - **Font:** The custom Norse font is available for download at various font sites.
 
