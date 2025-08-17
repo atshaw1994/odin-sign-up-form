@@ -36,11 +36,11 @@ _You can add screenshots of your project on different devices (desktop, mobile) 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone [https://github.com/atshaw1994/odin-sign-up-form.git](https://github.com/atshaw1994/odin-sign-up-form.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd YOUR_REPO_NAME
+    cd odin-sign-up-form
     ```
 3.  **Open `index.html`:**
     Simply open the `index.html` file in your preferred web browser to view the project.
