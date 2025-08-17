@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #141414;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .container {
@@ -34,12 +35,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.right-pane {
-    flex: 2;
-    background-color: white;
-    border: 1px solid black;
 }
 
 .logo {
@@ -68,8 +63,102 @@ body {
 }
 
 .left-pane-credits {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: white;
     margin: 8px;
     align-self: center;
 }
+
+.right-pane {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 10px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.right-pane-top {
+    flex: 2;
+    flex-direction: column;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.form-title-text {
+    display: block;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}   
+
+.sign-up-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 24px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:required {
+  border-color: #ff0000;
+}
+
+.right-pane-bottom {
+    flex: 1;
+    background-color: white;
+    box-shadow: inset 8px 8px 8px -8px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 16px 0;
+}   
+
+.submit-button {
+    padding: 16px 55px;
+    margin-top: 35px;
+    margin-left: 48px;
+    background-color: #586D49;
+    color: white;
+    font: 1rem 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 48px;
+}
+
+.login-link{
+    color: #586D49;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
