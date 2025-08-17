@@ -145,7 +145,7 @@ input:required {
     padding: 16px 55px;
     margin-top: 35px;
     margin-left: 48px;
-    background-color: #586D49;
+    background-color: #3F4836;
     color: white;
     font: 1rem 'Open Sans', sans-serif;
     border: none;
@@ -161,7 +161,7 @@ input:required {
 }
 
 .login-link{
-    color: #586D49;
+    color: #3F4836;
     text-decoration: none;
     font-weight: bold;
     margin-left: 8px;
