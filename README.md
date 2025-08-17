@@ -24,7 +24,7 @@ You can view a live demo of this project [here](https://atshaw1994.github.io/odi
 
 ## Project Screenshots
 
-_You can add screenshots of your project on different devices (desktop, mobile) here._
+![screenshot](res/screenshot.png)
 
 ## Credits
 
@@ -36,7 +36,7 @@ _You can add screenshots of your project on different devices (desktop, mobile) 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/atshaw1994/odin-sign-up-form.git](https://github.com/atshaw1994/odin-sign-up-form.git)
+    git clone https://github.com/atshaw1994/odin-sign-up-form.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
